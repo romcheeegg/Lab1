@@ -6,31 +6,29 @@
 <title>Personal Portfolio | Roman Veremiienko</title>
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: Arial, sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.6; }
-nav { position: fixed; top: 0; width: 100%; background: rgba(255,255,255,0.95); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #e2e8f0; z-index: 1000; }
-nav a { text-decoration: none; color: #1e293b; margin-left: 2rem; font-weight: 500; }
-nav a:hover { color: #2563eb; }
+body { font-family: Arial, sans-serif; background: #0f172a; color: #e2e8f0; line-height: 1.6; }
+nav { position: fixed; top: 0; width: 100%; background: rgba(15,23,42,0.95); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #1e293b; z-index: 1000; }
+nav a { text-decoration: none; color: #e2e8f0; margin-left: 2rem; font-weight: 500; }
+nav a:hover { color: #60a5fa; }
 section { padding: 100px 20px; max-width: 1100px; margin: 0 auto; }
 #hero { padding-top: 160px; }
-h1 { font-size: 3rem; color: #2563eb; margin-bottom: 1rem; }
-h2 { font-size: 2rem; margin-bottom: 1rem; color: #1e293b; }
-p { color: #64748b; font-size: 1.1rem; }
+h1 { font-size: 3rem; color: #60a5fa; margin-bottom: 1rem; }
+h2 { font-size: 2rem; margin-bottom: 1rem; color: #e2e8f0; }
+p { color: #94a3b8; font-size: 1.1rem; }
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
-.skill-card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); text-align: center; }
+.skill-card { background: #1e293b; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.3); text-align: center; }
 .skill-icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
-.skill-card h3 { margin-bottom: 0.3rem; color: #1e293b; }
+.skill-card h3 { margin-bottom: 0.3rem; color: #e2e8f0; }
 .skill-card p { font-size: 0.9rem; }
-#skills { background: white; max-width: 100%; padding: 80px 20px; }
-#skills .inner { max-width: 1100px; margin: 0 auto; }
-.contact-box { background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); margin-top: 1rem; }
+#skills { background: #0f172a; max-width: 100%; padding: 80px 20px; }
+.contact-box { background: #1e293b; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.3); margin-top: 1rem; }
 .contact-box p { margin-bottom: 0.5rem; }
-footer { text-align: center; padding: 2rem; background: #1e293b; color: #94a3b8; }
+footer { text-align: center; padding: 2rem; background: #020617; color: #475569; }
 </style>
 </head>
 <body>
-
 <nav>
-  <strong style="color:#2563eb;font-size:1.3rem">Portfolio</strong>
+  <strong style="color:#60a5fa;font-size:1.3rem">Portfolio</strong>
   <div>
     <a href="#hero">Home</a>
     <a href="#about">About</a>
@@ -38,18 +36,15 @@ footer { text-align: center; padding: 2rem; background: #1e293b; color: #94a3b8;
     <a href="#contact">Contact</a>
   </div>
 </nav>
-
 <section id="hero">
-  <h1>Hi, I'm Your Name</h1>
+  <h1>Hi, I'm Roman Veremiienko</h1>
   <p>I build modern digital experiences.<br>Specialized in frontend development and clean UI/UX design.</p>
 </section>
-
 <section id="about">
   <h2>About Me</h2>
   <p>I am a passionate developer with a focus on creating intuitive and visually stunning user interfaces. I believe in clean code, user-centric design, and continuous learning.</p>
 </section>
-
-<section id="skills" style="background:#f1f5f9">
+<section id="skills" style="background:#0d1424">
   <div style="max-width:1100px;margin:0 auto">
     <h2>My Skills</h2>
     <div class="skills-grid">
@@ -60,7 +55,6 @@ footer { text-align: center; padding: 2rem; background: #1e293b; color: #94a3b8;
     </div>
   </div>
 </section>
-
 <section id="contact">
   <h2>Contact Me</h2>
   <div class="contact-box">
@@ -69,10 +63,8 @@ footer { text-align: center; padding: 2rem; background: #1e293b; color: #94a3b8;
     <p><strong>GitHub:</strong> github.com/romcheeegg</p>
   </div>
 </section>
-
 <footer>
   <p>&copy; 2026 Roman Veremiienko. All rights reserved.</p>
 </footer>
-
 </body>
 </html>
